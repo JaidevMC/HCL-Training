@@ -36,3 +36,27 @@ and demonstrates create, read, update, and delete operations.
 - try-with-resources automatically closes resources.
 - Type erasure removes most generic type information
   during compilation.
+
+  ## My console Output
+  === All Products ===
+101 Laptop 55000.0
+102 Mouse 750.0
+103 Keyboard 1500.0
+104 Monitor 12000.0
+105 Headphones 2500.0
+
+=== Find Product ===
+102 Mouse 750.0
+
+=== Update Product ===
+Updated: true
+102 Wireless Mouse 1200.0
+
+=== Delete Product ===
+Deleted: true
+
+=== Final Products ===
+101 Laptop 55000.0
+102 Wireless Mouse 1200.0
+103 Keyboard 1500.0
+104 Monitor 12000.0
