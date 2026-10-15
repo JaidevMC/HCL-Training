@@ -3,3 +3,17 @@ target/
 bin/
 .idea/
 .vscode/
+
+# IntelliJ IDEA files
+*.iml
+.idea/
+
+# Maven generated files
+**/target/
+
+# Node.js dependencies
+**/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
