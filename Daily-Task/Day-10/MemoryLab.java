@@ -102,19 +102,22 @@ public class MemoryLab {
 
     // Experiment 4: Garbage Collection
     static void garbageCollection() {
-        for (int i = 0; i < 10; i++) {
-            byte[] data = new byte[1024 * 1024];
+    for (int i = 0; i < 10; i++) {
+        byte[] data = new byte[1024 * 1024];
 
-            System.out.println("Created object: "
-                    + (i + 1) + " MB");
+        System.out.println("Created object: "
+                + (i + 1) + " MB");
 
-            data = null;
-        }
+        System.out.println("Array size: "
+                + data.length + " bytes");
 
-        System.gc();
-
-        System.out.println("Garbage collection requested.");
+        data = null;
     }
+
+    System.gc();
+
+    System.out.println("Garbage collection requested.");
+}
 
     // Experiment 5: Integer Cache
     static void integerCache() {
